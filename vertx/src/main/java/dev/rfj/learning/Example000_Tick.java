@@ -2,10 +2,11 @@ package dev.rfj.learning;
 
 import io.vertx.core.Vertx;
 
+// https://vertx.io/docs/vertx-core/java/#_dont_call_us_well_call_you
 /**
  * Simplest vert.x example - start an application and let the event loop call a tick once a second
  */
-public class Example000Tick extends AbstractExample {
+public class Example000_Tick extends AbstractExample {
     public void run() {
         // setup vert.x instance
         Vertx vertx = Vertx.vertx();

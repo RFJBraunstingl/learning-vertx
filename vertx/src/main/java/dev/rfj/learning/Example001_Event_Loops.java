@@ -5,13 +5,14 @@ import io.vertx.core.Vertx;
 
 import java.util.Iterator;
 
+// https://vertx.io/docs/vertx-core/java/#_reactor_and_multi_reactor
 /**
  * vert.x works with event loops
  * event loops dispatch events
  * events are handled by handlers
  * per default, there are as many event loops as there are CPU cores
  */
-public class Example001EventLoops extends AbstractExample {
+public class Example001_Event_Loops extends AbstractExample {
 
     @Override
     void run() throws Exception {

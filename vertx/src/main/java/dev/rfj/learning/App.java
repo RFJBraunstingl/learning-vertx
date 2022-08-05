@@ -6,6 +6,6 @@ public class App
 
         System.out.println( "Hello World!" );
 
-        AbstractExampleRunner.run(Example001EventLoops.class);
+        AbstractExampleRunner.run(Example002_Blocking_Event_Loops.class);
     }
 }
