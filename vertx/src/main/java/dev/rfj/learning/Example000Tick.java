@@ -5,8 +5,8 @@ import io.vertx.core.Vertx;
 /**
  * Simplest vert.x example - start an application and let the event loop call a tick once a second
  */
-public class Example000Tick {
-    public static void run() {
+public class Example000Tick extends AbstractExample {
+    public void run() {
         // setup vert.x instance
         Vertx vertx = Vertx.vertx();
 

@@ -2,10 +2,10 @@ package dev.rfj.learning;
 
 public class App
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws Exception {
+
         System.out.println( "Hello World!" );
 
-        Example000Tick.run();
+        AbstractExampleRunner.run(Example000Tick.class);
     }
 }
