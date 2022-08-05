@@ -6,6 +6,6 @@ public class App
 
         System.out.println( "Hello World!" );
 
-        AbstractExampleRunner.run(Example000Tick.class);
+        AbstractExampleRunner.run(Example001EventLoops.class);
     }
 }
