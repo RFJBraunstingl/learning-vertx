@@ -17,13 +17,25 @@
     <main.class>dev.rfj.learning.App</main.class>
 
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+
+    <junit.version>4.13.2</junit.version>
+    <vertx.version>4.3.2</vertx.version>
   </properties>
 
   <dependencies>
+
+    <!-- vert.x -->
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-core</artifactId>
+      <version>${vertx.version}</version>
+    </dependency>
+
+    <!-- test -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
